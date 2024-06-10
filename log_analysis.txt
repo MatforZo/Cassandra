@@ -20,7 +20,7 @@ grep -i update example.log | tail -n 15
  
 2.      Get number of select queries in the entire file
  
- grep -i select  example.log | wc -l 
+grep -i select  example.log | wc -l 
  
       66
  
