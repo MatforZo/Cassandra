@@ -1,0 +1,997 @@
+2023-04-29 23:41:48 type= counter= # Time: 230429 23:41:48
+2023-04-29 23:41:48 type= counter= # User@Host: user8[user8] @  [0.0.0.0]
+2023-04-29 23:41:48 type= counter= # Thread_id: 797350  Schema: schema7  QC_hit: No
+2023-04-29 23:41:48 type= counter= # Query_time: 9.366808  Lock_time: 0.000227  Rows_sent: 1  Rows_examined: 2852444
+2023-04-29 23:41:48 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:41:48 type= counter= use schema7;
+2023-04-29 23:41:48 type= counter= SET timestamp=1682811708;
+2023-04-29 23:41:48 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:41:53 type= counter= # Time: 230429 23:41:53
+2023-04-29 23:41:53 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:41:53 type= counter= # Thread_id: 797403  Schema: schema3  QC_hit: No
+2023-04-29 23:41:53 type= counter= # Query_time: 2.067720  Lock_time: 0.000119  Rows_sent: 1  Rows_examined: 711152
+2023-04-29 23:41:53 type= counter= # Rows_affected: 0  Bytes_sent: 1638
+2023-04-29 23:41:53 type= counter= use schema3;
+2023-04-29 23:41:53 type= counter= SET timestamp=1682811713;
+2023-04-29 23:41:53 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:41:56 type= counter= # Time: 230429 23:41:56
+2023-04-29 23:41:56 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:41:56 type= counter= # Thread_id: 796671  Schema: schema21  QC_hit: No
+2023-04-29 23:41:56 type= counter= # Query_time: 11.896993  Lock_time: 0.000224  Rows_sent: 1  Rows_examined: 3329834
+2023-04-29 23:41:56 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:41:56 type= counter= use schema21;
+2023-04-29 23:41:56 type= counter= SET timestamp=1682811716;
+2023-04-29 23:41:56 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:41:54 type= counter= # Time: 230429 23:41:54
+2023-04-29 23:41:54 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:41:54 type= counter= # Thread_id: 797406  Schema: schema3  QC_hit: No
+2023-04-29 23:41:54 type= counter= # Query_time: 2.025965  Lock_time: 0.000106  Rows_sent: 1  Rows_examined: 711152
+2023-04-29 23:41:54 type= counter= # Rows_affected: 0  Bytes_sent: 1748
+2023-04-29 23:41:54 type= counter= SET timestamp=1682811714;
+2023-04-29 23:41:54 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:42:07 type= counter= # Time: 230429 23:42:07
+2023-04-29 23:42:07 type= counter= # User@Host: user11[user11] @  [0.0.0.0]
+2023-04-29 23:42:07 type= counter= # Thread_id: 794772  Schema: schema9  QC_hit: No
+2023-04-29 23:42:07 type= counter= # Query_time: 4.087776  Lock_time: 0.000355  Rows_sent: 25  Rows_examined: 494601
+2023-04-29 23:42:07 type= counter= # Rows_affected: 0  Bytes_sent: 19438
+2023-04-29 23:42:07 type= counter= use schema9;
+2023-04-29 23:42:07 type= counter= SET timestamp=1682811727;
+2023-04-29 23:42:07 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:42:08 type= counter= # Time: 230429 23:42:08
+2023-04-29 23:42:08 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:42:08 type= counter= # Thread_id: 797418  Schema: schema21  QC_hit: No
+2023-04-29 23:42:08 type= counter= # Query_time: 5.659032  Lock_time: 0.000193  Rows_sent: 1  Rows_examined: 6245663
+2023-04-29 23:42:08 type= counter= # Rows_affected: 0  Bytes_sent: 643
+2023-04-29 23:42:08 type= counter= use schema21;
+2023-04-29 23:42:08 type= counter= SET timestamp=1682811728;
+2023-04-29 23:42:08 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:42:06 type= counter= # Time: 230429 23:42:06
+2023-04-29 23:42:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:42:06 type= counter= # Thread_id: 796671  Schema: schema21  QC_hit: No
+2023-04-29 23:42:06 type= counter= # Query_time: 4.218096  Lock_time: 0.000106  Rows_sent: 0  Rows_examined: 6245661
+2023-04-29 23:42:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:42:06 type= counter= SET timestamp=1682811726;
+2023-04-29 23:42:06 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:42:11 type= counter= # Time: 230429 23:42:11
+2023-04-29 23:42:11 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:42:11 type= counter= # Thread_id: 797433  Schema: schema3  QC_hit: No
+2023-04-29 23:42:11 type= counter= # Query_time: 2.057810  Lock_time: 0.000146  Rows_sent: 1  Rows_examined: 711154
+2023-04-29 23:42:11 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:42:11 type= counter= use schema3;
+2023-04-29 23:42:11 type= counter= SET timestamp=1682811731;
+2023-04-29 23:42:11 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:42:27 type= counter= # Time: 230429 23:42:27
+2023-04-29 23:42:27 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:42:27 type= counter= # Thread_id: 797462  Schema: schema3  QC_hit: No
+2023-04-29 23:42:27 type= counter= # Query_time: 2.383394  Lock_time: 0.000185  Rows_sent: 0  Rows_examined: 711155
+2023-04-29 23:42:27 type= counter= # Rows_affected: 0  Bytes_sent: 1381
+2023-04-29 23:42:27 type= counter= SET timestamp=1682811747;
+2023-04-29 23:42:27 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:42:27 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:42:27 type= counter= # Thread_id: 797463  Schema: schema3  QC_hit: No
+2023-04-29 23:42:27 type= counter= # Query_time: 2.108765  Lock_time: 0.000125  Rows_sent: 1  Rows_examined: 711155
+2023-04-29 23:42:27 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:42:27 type= counter= SET timestamp=1682811747;
+2023-04-29 23:42:27 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:42:17 type= counter= # Time: 230429 23:42:17
+2023-04-29 23:42:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:42:17 type= counter= # Thread_id: 796777  Schema: schema11  QC_hit: No
+2023-04-29 23:42:17 type= counter= # Query_time: 4.575189  Lock_time: 0.000124  Rows_sent: 1  Rows_examined: 7134823
+2023-04-29 23:42:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:42:17 type= counter= use schema11;
+2023-04-29 23:42:17 type= counter= SET timestamp=1682811737;
+2023-04-29 23:42:17 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:42:17 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:42:17 type= counter= # Thread_id: 797449  Schema: schema3  QC_hit: No
+2023-04-29 23:42:17 type= counter= # Query_time: 2.135725  Lock_time: 0.000117  Rows_sent: 1  Rows_examined: 711154
+2023-04-29 23:42:17 type= counter= # Rows_affected: 0  Bytes_sent: 1802
+2023-04-29 23:42:17 type= counter= use schema3;
+2023-04-29 23:42:17 type= counter= SET timestamp=1682811737;
+2023-04-29 23:42:17 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:42:33 type= counter= # Time: 230429 23:42:33
+2023-04-29 23:42:33 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:42:33 type= counter= # Thread_id: 797471  Schema: schema3  QC_hit: No
+2023-04-29 23:42:33 type= counter= # Query_time: 2.022750  Lock_time: 0.000130  Rows_sent: 0  Rows_examined: 711156
+2023-04-29 23:42:33 type= counter= # Rows_affected: 0  Bytes_sent: 1381
+2023-04-29 23:42:33 type= counter= SET timestamp=1682811753;
+2023-04-29 23:42:33 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:42:37 type= counter= # Time: 230429 23:42:37
+2023-04-29 23:42:37 type= counter= # User@Host: user26[user26] @  [0.0.0.0]
+2023-04-29 23:42:37 type= counter= # Thread_id: 797056  Schema: schema1  QC_hit: No
+2023-04-29 23:42:37 type= counter= # Query_time: 4.173857  Lock_time: 0.000129  Rows_sent: 3  Rows_examined: 1200380
+2023-04-29 23:42:37 type= counter= # Rows_affected: 0  Bytes_sent: 359
+2023-04-29 23:42:37 type= counter= use schema1;
+2023-04-29 23:42:37 type= counter= SET timestamp=1682811757;
+2023-04-29 23:42:37 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:42:55 type= counter= # Time: 230429 23:42:55
+2023-04-29 23:42:55 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:42:55 type= counter= # Thread_id: 797508  Schema: schema3  QC_hit: No
+2023-04-29 23:42:55 type= counter= # Query_time: 2.024724  Lock_time: 0.000177  Rows_sent: 1  Rows_examined: 711157
+2023-04-29 23:42:55 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:42:55 type= counter= SET timestamp=1682811775;
+2023-04-29 23:42:55 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:42:51 type= counter= # Time: 230429 23:42:51
+2023-04-29 23:42:51 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:42:51 type= counter= # Thread_id: 797496  Schema: schema3  QC_hit: No
+2023-04-29 23:42:51 type= counter= # Query_time: 2.921170  Lock_time: 0.000160  Rows_sent: 1  Rows_examined: 711157
+2023-04-29 23:42:51 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:42:51 type= counter= use schema3;
+2023-04-29 23:42:51 type= counter= SET timestamp=1682811771;
+2023-04-29 23:42:51 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:42:52 type= counter= # Time: 230429 23:42:52
+2023-04-29 23:42:52 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:42:52 type= counter= # Thread_id: 797498  Schema: schema3  QC_hit: No
+2023-04-29 23:42:52 type= counter= # Query_time: 3.112231  Lock_time: 0.000108  Rows_sent: 1  Rows_examined: 711157
+2023-04-29 23:42:52 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:42:52 type= counter= SET timestamp=1682811772;
+2023-04-29 23:42:52 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:42:56 type= counter= # Time: 230429 23:42:56
+2023-04-29 23:42:56 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:42:56 type= counter= # Thread_id: 797509  Schema: schema3  QC_hit: No
+2023-04-29 23:42:56 type= counter= # Query_time: 2.101997  Lock_time: 0.000187  Rows_sent: 1  Rows_examined: 711157
+2023-04-29 23:42:56 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:42:56 type= counter= SET timestamp=1682811776;
+2023-04-29 23:42:56 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:43:06 type= counter= # Time: 230429 23:43:06
+2023-04-29 23:43:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:43:06 type= counter= # Thread_id: 797418  Schema: schema21  QC_hit: No
+2023-04-29 23:43:06 type= counter= # Query_time: 3.990153  Lock_time: 0.000154  Rows_sent: 0  Rows_examined: 6245662
+2023-04-29 23:43:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:43:06 type= counter= use schema21;
+2023-04-29 23:43:06 type= counter= SET timestamp=1682811786;
+2023-04-29 23:43:06 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:43:17 type= counter= # Time: 230429 23:43:17
+2023-04-29 23:43:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:43:17 type= counter= # Thread_id: 796777  Schema: schema11  QC_hit: No
+2023-04-29 23:43:17 type= counter= # Query_time: 4.720393  Lock_time: 0.000125  Rows_sent: 1  Rows_examined: 7134839
+2023-04-29 23:43:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:43:17 type= counter= SET timestamp=1682811797;
+2023-04-29 23:43:17 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:43:20 type= counter= # Time: 230429 23:43:20
+2023-04-29 23:43:20 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:43:20 type= counter= # Thread_id: 797525  Schema: schema11  QC_hit: No
+2023-04-29 23:43:20 type= counter= # Query_time: 6.808856  Lock_time: 0.000128  Rows_sent: 16  Rows_examined: 7134869
+2023-04-29 23:43:20 type= counter= # Rows_affected: 0  Bytes_sent: 1838
+2023-04-29 23:43:20 type= counter= SET timestamp=1682811800;
+2023-04-29 23:43:20 type= counter= select id,another_id from table312 where id = 'OCbEwSrFPLY5nvwx73ZG'
+2023-04-29 23:43:12 type= counter= # Time: 230429 23:43:12
+2023-04-29 23:43:12 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:43:12 type= counter= # Thread_id: 796777  Schema: schema11  QC_hit: No
+2023-04-29 23:43:12 type= counter= # Query_time: 2.211622  Lock_time: 0.000071  Rows_sent: 1  Rows_examined: 5508035
+2023-04-29 23:43:12 type= counter= # Rows_affected: 0  Bytes_sent: 69
+2023-04-29 23:43:12 type= counter= use schema11;
+2023-04-29 23:43:12 type= counter= SET timestamp=1682811792;
+2023-04-29 23:43:12 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:43:38 type= counter= # Time: 230429 23:43:38
+2023-04-29 23:43:38 type= counter= # User@Host: user16[user16] @  [0.0.0.0]
+2023-04-29 23:43:38 type= counter= # Thread_id: 797300  Schema: schema17  QC_hit: No
+2023-04-29 23:43:38 type= counter= # Query_time: 2.414033  Lock_time: 0.000134  Rows_sent: 1  Rows_examined: 715559
+2023-04-29 23:43:38 type= counter= # Rows_affected: 0  Bytes_sent: 232
+2023-04-29 23:43:38 type= counter= use schema17;
+2023-04-29 23:43:38 type= counter= SET timestamp=1682811818;
+2023-04-29 23:43:38 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:43:54 type= counter= # Time: 230429 23:43:54
+2023-04-29 23:43:54 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:43:54 type= counter= # Thread_id: 797566  Schema: schema3  QC_hit: No
+2023-04-29 23:43:54 type= counter= # Query_time: 2.240649  Lock_time: 0.000126  Rows_sent: 0  Rows_examined: 711158
+2023-04-29 23:43:54 type= counter= # Rows_affected: 0  Bytes_sent: 1381
+2023-04-29 23:43:54 type= counter= use schema3;
+2023-04-29 23:43:54 type= counter= SET timestamp=1682811834;
+2023-04-29 23:43:54 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:43:55 type= counter= # Time: 230429 23:43:55
+2023-04-29 23:43:55 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:43:55 type= counter= # Thread_id: 797570  Schema: schema3  QC_hit: No
+2023-04-29 23:43:55 type= counter= # Query_time: 2.095343  Lock_time: 0.000128  Rows_sent: 1  Rows_examined: 711158
+2023-04-29 23:43:55 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:43:55 type= counter= SET timestamp=1682811835;
+2023-04-29 23:43:55 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:43:59 type= counter= # Time: 230429 23:43:59
+2023-04-29 23:43:59 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:43:59 type= counter= # Thread_id: 797575  Schema: schema3  QC_hit: No
+2023-04-29 23:43:59 type= counter= # Query_time: 2.201360  Lock_time: 0.000139  Rows_sent: 1  Rows_examined: 711158
+2023-04-29 23:43:59 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:43:59 type= counter= SET timestamp=1682811839;
+2023-04-29 23:43:59 type= counter= select id,another_id from table312 where id = 'OCbEwSrFPLY5nvwx73ZG'
+2023-04-29 23:44:09 type= counter= # Time: 230429 23:44:09
+2023-04-29 23:44:09 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:44:09 type= counter= # Thread_id: 797588  Schema: schema3  QC_hit: No
+2023-04-29 23:44:09 type= counter= # Query_time: 2.003793  Lock_time: 0.000137  Rows_sent: 1  Rows_examined: 711158
+2023-04-29 23:44:09 type= counter= # Rows_affected: 0  Bytes_sent: 1748
+2023-04-29 23:44:09 type= counter= use schema3;
+2023-04-29 23:44:09 type= counter= SET timestamp=1682811849;
+2023-04-29 23:44:09 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:44:05 type= counter= # Time: 230429 23:44:05
+2023-04-29 23:44:05 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:44:05 type= counter= # Thread_id: 797418  Schema: schema21  QC_hit: No
+2023-04-29 23:44:05 type= counter= # Query_time: 3.730811  Lock_time: 0.000106  Rows_sent: 0  Rows_examined: 6245664
+2023-04-29 23:44:05 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:44:05 type= counter= use schema21;
+2023-04-29 23:44:05 type= counter= SET timestamp=1682811845;
+2023-04-29 23:44:05 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:44:17 type= counter= # Time: 230429 23:44:17
+2023-04-29 23:44:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:44:17 type= counter= # Thread_id: 797525  Schema: schema11  QC_hit: No
+2023-04-29 23:44:17 type= counter= # Query_time: 4.211847  Lock_time: 0.000137  Rows_sent: 1  Rows_examined: 7134845
+2023-04-29 23:44:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:44:17 type= counter= use schema11;
+2023-04-29 23:44:17 type= counter= SET timestamp=1682811857;
+2023-04-29 23:44:17 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:44:38 type= counter= # Time: 230429 23:44:38
+2023-04-29 23:44:38 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:44:38 type= counter= # Thread_id: 797525  Schema: schema11  QC_hit: No
+2023-04-29 23:44:38 type= counter= # Query_time: 19.104147  Lock_time: 0.000191  Rows_sent: 1  Rows_examined: 5508039
+2023-04-29 23:44:38 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:44:38 type= counter= use schema11;
+2023-04-29 23:44:38 type= counter= SET timestamp=1682811878;
+2023-04-29 23:44:38 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:44:28 type= counter= # Time: 230429 23:44:28
+2023-04-29 23:44:28 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:44:28 type= counter= # Thread_id: 797615  Schema: schema3  QC_hit: No
+2023-04-29 23:44:28 type= counter= # Query_time: 2.021708  Lock_time: 0.000130  Rows_sent: 1  Rows_examined: 711160
+2023-04-29 23:44:28 type= counter= # Rows_affected: 0  Bytes_sent: 2174
+2023-04-29 23:44:28 type= counter= use schema3;
+2023-04-29 23:44:28 type= counter= SET timestamp=1682811868;
+2023-04-29 23:44:28 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:44:37 type= counter= # Time: 230429 23:44:37
+2023-04-29 23:44:37 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:44:37 type= counter= # Thread_id: 797628  Schema: schema3  QC_hit: No
+2023-04-29 23:44:37 type= counter= # Query_time: 2.156531  Lock_time: 0.000130  Rows_sent: 0  Rows_examined: 711160
+2023-04-29 23:44:37 type= counter= # Rows_affected: 0  Bytes_sent: 1381
+2023-04-29 23:44:37 type= counter= SET timestamp=1682811877;
+2023-04-29 23:44:37 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:44:59 type= counter= # Time: 230429 23:44:59
+2023-04-29 23:44:59 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:44:59 type= counter= # Thread_id: 797663  Schema: schema3  QC_hit: No
+2023-04-29 23:44:59 type= counter= # Query_time: 2.025599  Lock_time: 0.000108  Rows_sent: 1  Rows_examined: 711163
+2023-04-29 23:44:59 type= counter= # Rows_affected: 0  Bytes_sent: 1638
+2023-04-29 23:44:59 type= counter= use schema3;
+2023-04-29 23:44:59 type= counter= SET timestamp=1682811899;
+2023-04-29 23:44:59 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:44:59 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:44:59 type= counter= # Thread_id: 797660  Schema: schema3  QC_hit: No
+2023-04-29 23:44:59 type= counter= # Query_time: 2.199636  Lock_time: 0.000122  Rows_sent: 1  Rows_examined: 711163
+2023-04-29 23:44:59 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:44:59 type= counter= SET timestamp=1682811899;
+2023-04-29 23:44:59 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:45:11 type= counter= # Time: 230429 23:45:11
+2023-04-29 23:45:11 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:45:11 type= counter= # Thread_id: 797685  Schema: schema3  QC_hit: No
+2023-04-29 23:45:11 type= counter= # Query_time: 2.022715  Lock_time: 0.000121  Rows_sent: 1  Rows_examined: 711163
+2023-04-29 23:45:11 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:45:11 type= counter= use schema3;
+2023-04-29 23:45:11 type= counter= SET timestamp=1682811911;
+2023-04-29 23:45:11 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:45:20 type= counter= # Time: 230429 23:45:20
+2023-04-29 23:45:20 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:45:20 type= counter= # Thread_id: 797702  Schema: schema3  QC_hit: No
+2023-04-29 23:45:20 type= counter= # Query_time: 2.030752  Lock_time: 0.000136  Rows_sent: 1  Rows_examined: 711163
+2023-04-29 23:45:20 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:45:20 type= counter= use schema3;
+2023-04-29 23:45:20 type= counter= SET timestamp=1682811920;
+2023-04-29 23:45:20 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:45:17 type= counter= # Time: 230429 23:45:17
+2023-04-29 23:45:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:45:17 type= counter= # Thread_id: 797525  Schema: schema11  QC_hit: No
+2023-04-29 23:45:17 type= counter= # Query_time: 4.206151  Lock_time: 0.000102  Rows_sent: 1  Rows_examined: 7134865
+2023-04-29 23:45:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:45:17 type= counter= use schema11;
+2023-04-29 23:45:17 type= counter= SET timestamp=1682811917;
+2023-04-29 23:45:17 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:45:03 type= counter= # Time: 230429 23:45:03
+2023-04-29 23:45:03 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:45:03 type= counter= # Thread_id: 797673  Schema: schema3  QC_hit: No
+2023-04-29 23:45:03 type= counter= # Query_time: 2.117789  Lock_time: 0.000106  Rows_sent: 1  Rows_examined: 711163
+2023-04-29 23:45:03 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:45:03 type= counter= SET timestamp=1682811903;
+2023-04-29 23:45:03 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:45:05 type= counter= # Time: 230429 23:45:05
+2023-04-29 23:45:05 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:45:05 type= counter= # Thread_id: 797418  Schema: schema21  QC_hit: No
+2023-04-29 23:45:05 type= counter= # Query_time: 3.809635  Lock_time: 0.000132  Rows_sent: 0  Rows_examined: 6245664
+2023-04-29 23:45:05 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:45:05 type= counter= use schema21;
+2023-04-29 23:45:05 type= counter= SET timestamp=1682811905;
+2023-04-29 23:45:05 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:46:06 type= counter= # Time: 230429 23:46:06
+2023-04-29 23:46:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:46:06 type= counter= # Thread_id: 797418  Schema: schema21  QC_hit: No
+2023-04-29 23:46:06 type= counter= # Query_time: 3.965709  Lock_time: 0.000149  Rows_sent: 0  Rows_examined: 6245665
+2023-04-29 23:46:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:46:06 type= counter= use schema21;
+2023-04-29 23:46:06 type= counter= SET timestamp=1682811966;
+2023-04-29 23:46:06 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:46:18 type= counter= # User@Host: user1[user1] @  [0.0.0.0]
+2023-04-29 23:46:18 type= counter= # Thread_id: 797792  Schema: schema1  QC_hit: No
+2023-04-29 23:46:18 type= counter= # Query_time: 2.320941  Lock_time: 0.000135  Rows_sent: 1  Rows_examined: 2652534
+2023-04-29 23:46:18 type= counter= # Rows_affected: 0  Bytes_sent: 632
+2023-04-29 23:46:18 type= counter= SET timestamp=1682811978;
+2023-04-29 23:46:18 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:46:14 type= counter= # Time: 230429 23:46:14
+2023-04-29 23:46:14 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:46:14 type= counter= # Thread_id: 797783  Schema: schema3  QC_hit: No
+2023-04-29 23:46:14 type= counter= # Query_time: 2.207777  Lock_time: 0.000136  Rows_sent: 1  Rows_examined: 711168
+2023-04-29 23:46:14 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:46:14 type= counter= use schema3;
+2023-04-29 23:46:14 type= counter= SET timestamp=1682811974;
+2023-04-29 23:46:14 type= counter= select id,another_id from table312 where id = 'OCbEwSrFPLY5nvwx73ZG'
+2023-04-29 23:46:17 type= counter= # Time: 230429 23:46:17
+2023-04-29 23:46:17 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:46:17 type= counter= # Thread_id: 797789  Schema: schema3  QC_hit: No
+2023-04-29 23:46:17 type= counter= # Query_time: 2.143625  Lock_time: 0.000160  Rows_sent: 1  Rows_examined: 711168
+2023-04-29 23:46:17 type= counter= # Rows_affected: 0  Bytes_sent: 1748
+2023-04-29 23:46:17 type= counter= SET timestamp=1682811977;
+2023-04-29 23:46:17 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:46:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:46:17 type= counter= # Thread_id: 797525  Schema: schema11  QC_hit: No
+2023-04-29 23:46:17 type= counter= # Query_time: 4.595539  Lock_time: 0.000102  Rows_sent: 1  Rows_examined: 7134887
+2023-04-29 23:46:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:46:17 type= counter= use schema11;
+2023-04-29 23:46:17 type= counter= SET timestamp=1682811977;
+2023-04-29 23:46:17 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:46:18 type= counter= # Time: 230429 23:46:18
+2023-04-29 23:46:18 type= counter= # User@Host: user1[user1] @  [0.0.0.0]
+2023-04-29 23:46:18 type= counter= # Thread_id: 797358  Schema: schema1  QC_hit: No
+2023-04-29 23:46:18 type= counter= # Query_time: 2.244765  Lock_time: 0.000186  Rows_sent: 0  Rows_examined: 2652532
+2023-04-29 23:46:18 type= counter= # Rows_affected: 0  Bytes_sent: 566
+2023-04-29 23:46:18 type= counter= use schema1;
+2023-04-29 23:46:18 type= counter= SET timestamp=1682811978;
+2023-04-29 23:46:18 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:46:02 type= counter= # Time: 230429 23:46:02
+2023-04-29 23:46:02 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:46:02 type= counter= # Thread_id: 797761  Schema: schema3  QC_hit: No
+2023-04-29 23:46:02 type= counter= # Query_time: 2.104604  Lock_time: 0.000151  Rows_sent: 1  Rows_examined: 711167
+2023-04-29 23:46:02 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:46:02 type= counter= SET timestamp=1682811962;
+2023-04-29 23:46:02 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:46:41 type= counter= # Time: 230429 23:46:41
+2023-04-29 23:46:41 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:46:41 type= counter= # Thread_id: 797830  Schema: schema3  QC_hit: No
+2023-04-29 23:46:41 type= counter= # Query_time: 2.148388  Lock_time: 0.000132  Rows_sent: 0  Rows_examined: 711170
+2023-04-29 23:46:41 type= counter= # Rows_affected: 0  Bytes_sent: 1381
+2023-04-29 23:46:41 type= counter= use schema3;
+2023-04-29 23:46:41 type= counter= SET timestamp=1682812001;
+2023-04-29 23:46:41 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:46:48 type= counter= # Time: 230429 23:46:48
+2023-04-29 23:46:48 type= counter= # User@Host: user8[user8] @  [0.0.0.0]
+2023-04-29 23:46:48 type= counter= # Thread_id: 797350  Schema: schema7  QC_hit: No
+2023-04-29 23:46:48 type= counter= # Query_time: 9.964842  Lock_time: 0.000235  Rows_sent: 1  Rows_examined: 2852444
+2023-04-29 23:46:48 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:46:48 type= counter= use schema7;
+2023-04-29 23:46:48 type= counter= SET timestamp=1682812008;
+2023-04-29 23:46:48 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:46:55 type= counter= # Time: 230429 23:46:55
+2023-04-29 23:46:55 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:46:55 type= counter= # Thread_id: 797418  Schema: schema21  QC_hit: No
+2023-04-29 23:46:55 type= counter= # Query_time: 11.187151  Lock_time: 0.000192  Rows_sent: 1  Rows_examined: 3329834
+2023-04-29 23:46:55 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:46:55 type= counter= use schema21;
+2023-04-29 23:46:55 type= counter= SET timestamp=1682812015;
+2023-04-29 23:46:55 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:47:08 type= counter= # Time: 230429 23:47:08
+2023-04-29 23:47:08 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:47:08 type= counter= # Thread_id: 797868  Schema: schema21  QC_hit: No
+2023-04-29 23:47:08 type= counter= # Query_time: 5.891147  Lock_time: 0.000141  Rows_sent: 1  Rows_examined: 6245669
+2023-04-29 23:47:08 type= counter= # Rows_affected: 0  Bytes_sent: 643
+2023-04-29 23:47:08 type= counter= SET timestamp=1682812028;
+2023-04-29 23:47:08 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:47:06 type= counter= # Time: 230429 23:47:06
+2023-04-29 23:47:06 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:47:06 type= counter= # Thread_id: 797873  Schema: schema3  QC_hit: No
+2023-04-29 23:47:06 type= counter= # Query_time: 2.060224  Lock_time: 0.000142  Rows_sent: 1  Rows_examined: 711172
+2023-04-29 23:47:06 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:47:06 type= counter= use schema3;
+2023-04-29 23:47:06 type= counter= SET timestamp=1682812026;
+2023-04-29 23:47:06 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:47:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:47:06 type= counter= # Thread_id: 797418  Schema: schema21  QC_hit: No
+2023-04-29 23:47:06 type= counter= # Query_time: 4.090911  Lock_time: 0.000131  Rows_sent: 0  Rows_examined: 6245667
+2023-04-29 23:47:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:47:06 type= counter= use schema21;
+2023-04-29 23:47:06 type= counter= SET timestamp=1682812026;
+2023-04-29 23:47:06 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:47:09 type= counter= # Time: 230429 23:47:09
+2023-04-29 23:47:09 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:47:09 type= counter= # Thread_id: 797878  Schema: schema3  QC_hit: No
+2023-04-29 23:47:09 type= counter= # Query_time: 2.025980  Lock_time: 0.000153  Rows_sent: 1  Rows_examined: 711172
+2023-04-29 23:47:09 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:47:09 type= counter= use schema3;
+2023-04-29 23:47:09 type= counter= SET timestamp=1682812029;
+2023-04-29 23:47:09 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:47:17 type= counter= # Time: 230429 23:47:17
+2023-04-29 23:47:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:47:17 type= counter= # Thread_id: 797525  Schema: schema11  QC_hit: No
+2023-04-29 23:47:17 type= counter= # Query_time: 4.260308  Lock_time: 0.000120  Rows_sent: 1  Rows_examined: 7134911
+2023-04-29 23:47:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:47:17 type= counter= use schema11;
+2023-04-29 23:47:17 type= counter= SET timestamp=1682812037;
+2023-04-29 23:47:17 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:47:17 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:47:17 type= counter= # Thread_id: 797897  Schema: schema3  QC_hit: No
+2023-04-29 23:47:17 type= counter= # Query_time: 2.122401  Lock_time: 0.000142  Rows_sent: 0  Rows_examined: 711172
+2023-04-29 23:47:17 type= counter= # Rows_affected: 0  Bytes_sent: 1381
+2023-04-29 23:47:17 type= counter= use schema3;
+2023-04-29 23:47:17 type= counter= SET timestamp=1682812037;
+2023-04-29 23:47:17 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:47:37 type= counter= # Time: 230429 23:47:37
+2023-04-29 23:47:37 type= counter= # User@Host: user26[user26] @  [0.0.0.0]
+2023-04-29 23:47:37 type= counter= # Thread_id: 797920  Schema: schema1  QC_hit: No
+2023-04-29 23:47:37 type= counter= # Query_time: 4.134950  Lock_time: 0.000187  Rows_sent: 3  Rows_examined: 1200380
+2023-04-29 23:47:37 type= counter= # Rows_affected: 0  Bytes_sent: 359
+2023-04-29 23:47:37 type= counter= use schema1;
+2023-04-29 23:47:37 type= counter= SET timestamp=1682812057;
+2023-04-29 23:47:37 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:48:06 type= counter= # Time: 230429 23:48:06
+2023-04-29 23:48:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:48:06 type= counter= # Thread_id: 797418  Schema: schema21  QC_hit: No
+2023-04-29 23:48:06 type= counter= # Query_time: 4.008201  Lock_time: 0.000105  Rows_sent: 0  Rows_examined: 6245667
+2023-04-29 23:48:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:48:06 type= counter= use schema21;
+2023-04-29 23:48:06 type= counter= SET timestamp=1682812086;
+2023-04-29 23:48:06 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:48:20 type= counter= # Time: 230429 23:48:20
+2023-04-29 23:48:20 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:48:20 type= counter= # Thread_id: 797989  Schema: schema11  QC_hit: No
+2023-04-29 23:48:20 type= counter= # Query_time: 6.259449  Lock_time: 0.000150  Rows_sent: 16  Rows_examined: 7134948
+2023-04-29 23:48:20 type= counter= # Rows_affected: 0  Bytes_sent: 1842
+2023-04-29 23:48:20 type= counter= SET timestamp=1682812100;
+2023-04-29 23:48:20 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:48:39 type= counter= # Time: 230429 23:48:39
+2023-04-29 23:48:39 type= counter= # User@Host: user16[user16] @  [0.0.0.0]
+2023-04-29 23:48:39 type= counter= # Thread_id: 797300  Schema: schema17  QC_hit: No
+2023-04-29 23:48:39 type= counter= # Query_time: 2.681679  Lock_time: 0.000181  Rows_sent: 1  Rows_examined: 715559
+2023-04-29 23:48:39 type= counter= # Rows_affected: 0  Bytes_sent: 232
+2023-04-29 23:48:39 type= counter= use schema17;
+2023-04-29 23:48:39 type= counter= SET timestamp=1682812119;
+2023-04-29 23:48:39 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:48:17 type= counter= # Time: 230429 23:48:17
+2023-04-29 23:48:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:48:17 type= counter= # Thread_id: 797525  Schema: schema11  QC_hit: No
+2023-04-29 23:48:17 type= counter= # Query_time: 4.335482  Lock_time: 0.000108  Rows_sent: 1  Rows_examined: 7134918
+2023-04-29 23:48:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:48:17 type= counter= use schema11;
+2023-04-29 23:48:17 type= counter= SET timestamp=1682812097;
+2023-04-29 23:48:17 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:49:05 type= counter= # Time: 230429 23:49:05
+2023-04-29 23:49:05 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:49:05 type= counter= # Thread_id: 797868  Schema: schema21  QC_hit: No
+2023-04-29 23:49:05 type= counter= # Query_time: 3.715222  Lock_time: 0.000160  Rows_sent: 0  Rows_examined: 6245668
+2023-04-29 23:49:05 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:49:05 type= counter= use schema21;
+2023-04-29 23:49:05 type= counter= SET timestamp=1682812145;
+2023-04-29 23:49:05 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:48:57 type= counter= # Time: 230429 23:48:57
+2023-04-29 23:48:57 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:48:57 type= counter= # Thread_id: 798062  Schema: schema3  QC_hit: No
+2023-04-29 23:48:57 type= counter= # Query_time: 2.021737  Lock_time: 0.000126  Rows_sent: 1  Rows_examined: 711177
+2023-04-29 23:48:57 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:48:57 type= counter= use schema3;
+2023-04-29 23:48:57 type= counter= SET timestamp=1682812137;
+2023-04-29 23:48:57 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:49:17 type= counter= # Time: 230429 23:49:17
+2023-04-29 23:49:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:49:17 type= counter= # Thread_id: 797525  Schema: schema11  QC_hit: No
+2023-04-29 23:49:17 type= counter= # Query_time: 4.771040  Lock_time: 0.000093  Rows_sent: 1  Rows_examined: 7134935
+2023-04-29 23:49:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:49:17 type= counter= use schema11;
+2023-04-29 23:49:17 type= counter= SET timestamp=1682812157;
+2023-04-29 23:49:17 type= counter= select id,another_id from table312 where id = 'OCbEwSrFPLY5nvwx73ZG'
+2023-04-29 23:49:37 type= counter= # Time: 230429 23:49:37
+2023-04-29 23:49:37 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:49:37 type= counter= # Thread_id: 797989  Schema: schema11  QC_hit: No
+2023-04-29 23:49:37 type= counter= # Query_time: 18.361307  Lock_time: 0.000175  Rows_sent: 1  Rows_examined: 5508039
+2023-04-29 23:49:37 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:49:37 type= counter= SET timestamp=1682812177;
+2023-04-29 23:49:37 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:49:38 type= counter= # Time: 230429 23:49:38
+2023-04-29 23:49:38 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:49:38 type= counter= # Thread_id: 798145  Schema: schema3  QC_hit: No
+2023-04-29 23:49:38 type= counter= # Query_time: 2.447950  Lock_time: 0.000136  Rows_sent: 1  Rows_examined: 711179
+2023-04-29 23:49:38 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:49:38 type= counter= use schema3;
+2023-04-29 23:49:38 type= counter= SET timestamp=1682812178;
+2023-04-29 23:49:38 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:49:39 type= counter= # Time: 230429 23:49:39
+2023-04-29 23:49:39 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:49:39 type= counter= # Thread_id: 798146  Schema: schema3  QC_hit: No
+2023-04-29 23:49:39 type= counter= # Query_time: 2.444078  Lock_time: 0.000077  Rows_sent: 1  Rows_examined: 711179
+2023-04-29 23:49:39 type= counter= # Rows_affected: 0  Bytes_sent: 1748
+2023-04-29 23:49:39 type= counter= SET timestamp=1682812179;
+2023-04-29 23:49:39 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:50:05 type= counter= # Time: 230429 23:50:05
+2023-04-29 23:50:05 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:50:05 type= counter= # Thread_id: 797418  Schema: schema21  QC_hit: No
+2023-04-29 23:50:05 type= counter= # Query_time: 3.749622  Lock_time: 0.000139  Rows_sent: 0  Rows_examined: 6245670
+2023-04-29 23:50:05 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:50:05 type= counter= use schema21;
+2023-04-29 23:50:05 type= counter= SET timestamp=1682812205;
+2023-04-29 23:50:05 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:50:14 type= counter= # Time: 230429 23:50:14
+2023-04-29 23:50:14 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:50:14 type= counter= # Thread_id: 798210  Schema: schema3  QC_hit: No
+2023-04-29 23:50:14 type= counter= # Query_time: 2.197144  Lock_time: 0.000131  Rows_sent: 1  Rows_examined: 711181
+2023-04-29 23:50:14 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:50:14 type= counter= use schema3;
+2023-04-29 23:50:14 type= counter= SET timestamp=1682812214;
+2023-04-29 23:50:14 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:50:27 type= counter= # Time: 230429 23:50:27
+2023-04-29 23:50:27 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:50:27 type= counter= # Thread_id: 798231  Schema: schema3  QC_hit: No
+2023-04-29 23:50:27 type= counter= # Query_time: 2.075361  Lock_time: 0.000107  Rows_sent: 1  Rows_examined: 711182
+2023-04-29 23:50:27 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:50:27 type= counter= use schema3;
+2023-04-29 23:50:27 type= counter= SET timestamp=1682812227;
+2023-04-29 23:50:27 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:50:17 type= counter= # Time: 230429 23:50:17
+2023-04-29 23:50:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:50:17 type= counter= # Thread_id: 797525  Schema: schema11  QC_hit: No
+2023-04-29 23:50:17 type= counter= # Query_time: 4.661456  Lock_time: 0.000115  Rows_sent: 1  Rows_examined: 7134949
+2023-04-29 23:50:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:50:17 type= counter= use schema11;
+2023-04-29 23:50:17 type= counter= SET timestamp=1682812217;
+2023-04-29 23:50:17 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:50:35 type= counter= # Time: 230429 23:50:35
+2023-04-29 23:50:35 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:50:35 type= counter= # Thread_id: 798245  Schema: schema3  QC_hit: No
+2023-04-29 23:50:35 type= counter= # Query_time: 2.166742  Lock_time: 0.000171  Rows_sent: 0  Rows_examined: 711183
+2023-04-29 23:50:35 type= counter= # Rows_affected: 0  Bytes_sent: 1381
+2023-04-29 23:50:35 type= counter= SET timestamp=1682812235;
+2023-04-29 23:50:35 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:51:06 type= counter= # Time: 230429 23:51:06
+2023-04-29 23:51:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:51:06 type= counter= # Thread_id: 797868  Schema: schema21  QC_hit: No
+2023-04-29 23:51:06 type= counter= # Query_time: 4.258296  Lock_time: 0.000158  Rows_sent: 0  Rows_examined: 6245672
+2023-04-29 23:51:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:51:06 type= counter= use schema21;
+2023-04-29 23:51:06 type= counter= SET timestamp=1682812266;
+2023-04-29 23:51:06 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:51:17 type= counter= # Time: 230429 23:51:17
+2023-04-29 23:51:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:51:17 type= counter= # Thread_id: 797989  Schema: schema11  QC_hit: No
+2023-04-29 23:51:17 type= counter= # Query_time: 4.646166  Lock_time: 0.000099  Rows_sent: 1  Rows_examined: 7134964
+2023-04-29 23:51:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:51:17 type= counter= use schema11;
+2023-04-29 23:51:17 type= counter= SET timestamp=1682812277;
+2023-04-29 23:51:17 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:51:18 type= counter= # Time: 230429 23:51:18
+2023-04-29 23:51:18 type= counter= # User@Host: user1[user1] @  [0.0.0.0]
+2023-04-29 23:51:18 type= counter= # Thread_id: 797792  Schema: schema1  QC_hit: No
+2023-04-29 23:51:18 type= counter= # Query_time: 2.130683  Lock_time: 0.000190  Rows_sent: 0  Rows_examined: 2652540
+2023-04-29 23:51:18 type= counter= # Rows_affected: 0  Bytes_sent: 566
+2023-04-29 23:51:18 type= counter= use schema1;
+2023-04-29 23:51:18 type= counter= SET timestamp=1682812278;
+2023-04-29 23:51:18 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:51:18 type= counter= # User@Host: user1[user1] @  [0.0.0.0]
+2023-04-29 23:51:18 type= counter= # Thread_id: 798337  Schema: schema1  QC_hit: No
+2023-04-29 23:51:18 type= counter= # Query_time: 2.306055  Lock_time: 0.000170  Rows_sent: 1  Rows_examined: 2652542
+2023-04-29 23:51:18 type= counter= # Rows_affected: 0  Bytes_sent: 632
+2023-04-29 23:51:18 type= counter= SET timestamp=1682812278;
+2023-04-29 23:51:18 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:51:47 type= counter= # Time: 230429 23:51:47
+2023-04-29 23:51:47 type= counter= # User@Host: user8[user8] @  [0.0.0.0]
+2023-04-29 23:51:47 type= counter= # Thread_id: 798329  Schema: schema7  QC_hit: No
+2023-04-29 23:51:47 type= counter= # Query_time: 9.046346  Lock_time: 0.000267  Rows_sent: 1  Rows_examined: 2852444
+2023-04-29 23:51:47 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:51:47 type= counter= use schema7;
+2023-04-29 23:51:47 type= counter= SET timestamp=1682812307;
+2023-04-29 23:51:47 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:51:56 type= counter= # Time: 230429 23:51:56
+2023-04-29 23:51:56 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:51:56 type= counter= # Thread_id: 797418  Schema: schema21  QC_hit: No
+2023-04-29 23:51:56 type= counter= # Query_time: 11.595046  Lock_time: 0.000181  Rows_sent: 1  Rows_examined: 3329834
+2023-04-29 23:51:56 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:51:56 type= counter= use schema21;
+2023-04-29 23:51:56 type= counter= SET timestamp=1682812316;
+2023-04-29 23:51:56 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:52:07 type= counter= # Time: 230429 23:52:07
+2023-04-29 23:52:07 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:52:07 type= counter= # Thread_id: 797418  Schema: schema21  QC_hit: No
+2023-04-29 23:52:07 type= counter= # Query_time: 5.664909  Lock_time: 0.000192  Rows_sent: 1  Rows_examined: 6245680
+2023-04-29 23:52:07 type= counter= # Rows_affected: 0  Bytes_sent: 643
+2023-04-29 23:52:07 type= counter= use schema21;
+2023-04-29 23:52:07 type= counter= SET timestamp=1682812327;
+2023-04-29 23:52:07 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:52:17 type= counter= # Time: 230429 23:52:17
+2023-04-29 23:52:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:52:17 type= counter= # Thread_id: 797525  Schema: schema11  QC_hit: No
+2023-04-29 23:52:17 type= counter= # Query_time: 4.409929  Lock_time: 0.000098  Rows_sent: 1  Rows_examined: 7134977
+2023-04-29 23:52:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:52:17 type= counter= use schema11;
+2023-04-29 23:52:17 type= counter= SET timestamp=1682812337;
+2023-04-29 23:52:17 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:52:06 type= counter= # Time: 230429 23:52:06
+2023-04-29 23:52:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:52:06 type= counter= # Thread_id: 797868  Schema: schema21  QC_hit: No
+2023-04-29 23:52:06 type= counter= # Query_time: 4.263993  Lock_time: 0.000120  Rows_sent: 0  Rows_examined: 6245678
+2023-04-29 23:52:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:52:06 type= counter= SET timestamp=1682812326;
+2023-04-29 23:52:06 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:52:06 type= counter= # User@Host: user11[user11] @  [0.0.0.0]
+2023-04-29 23:52:06 type= counter= # Thread_id: 795753  Schema: schema9  QC_hit: No
+2023-04-29 23:52:06 type= counter= # Query_time: 4.239843  Lock_time: 0.000282  Rows_sent: 25  Rows_examined: 494601
+2023-04-29 23:52:06 type= counter= # Rows_affected: 0  Bytes_sent: 19438
+2023-04-29 23:52:06 type= counter= use schema9;
+2023-04-29 23:52:06 type= counter= SET timestamp=1682812326;
+2023-04-29 23:52:06 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:52:24 type= counter= # Time: 230429 23:52:24
+2023-04-29 23:52:24 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:52:24 type= counter= # Thread_id: 798456  Schema: schema3  QC_hit: No
+2023-04-29 23:52:24 type= counter= # Query_time: 2.117433  Lock_time: 0.000177  Rows_sent: 1  Rows_examined: 711186
+2023-04-29 23:52:24 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:52:24 type= counter= use schema3;
+2023-04-29 23:52:24 type= counter= SET timestamp=1682812344;
+2023-04-29 23:52:24 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:52:37 type= counter= # Time: 230429 23:52:37
+2023-04-29 23:52:37 type= counter= # User@Host: user26[user26] @  [0.0.0.0]
+2023-04-29 23:52:37 type= counter= # Thread_id: 797920  Schema: schema1  QC_hit: No
+2023-04-29 23:52:37 type= counter= # Query_time: 4.378418  Lock_time: 0.000189  Rows_sent: 3  Rows_examined: 1200380
+2023-04-29 23:52:37 type= counter= # Rows_affected: 0  Bytes_sent: 359
+2023-04-29 23:52:37 type= counter= use schema1;
+2023-04-29 23:52:37 type= counter= SET timestamp=1682812357;
+2023-04-29 23:52:37 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:53:06 type= counter= # Time: 230429 23:53:06
+2023-04-29 23:53:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:53:06 type= counter= # Thread_id: 797868  Schema: schema21  QC_hit: No
+2023-04-29 23:53:06 type= counter= # Query_time: 3.953085  Lock_time: 0.000132  Rows_sent: 0  Rows_examined: 6245678
+2023-04-29 23:53:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:53:06 type= counter= use schema21;
+2023-04-29 23:53:06 type= counter= SET timestamp=1682812386;
+2023-04-29 23:53:06 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:53:17 type= counter= # Time: 230429 23:53:17
+2023-04-29 23:53:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:53:17 type= counter= # Thread_id: 797989  Schema: schema11  QC_hit: No
+2023-04-29 23:53:17 type= counter= # Query_time: 4.413278  Lock_time: 0.000142  Rows_sent: 1  Rows_examined: 7134987
+2023-04-29 23:53:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:53:17 type= counter= use schema11;
+2023-04-29 23:53:17 type= counter= SET timestamp=1682812397;
+2023-04-29 23:53:17 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:53:19 type= counter= # Time: 230429 23:53:19
+2023-04-29 23:53:19 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:53:19 type= counter= # Thread_id: 797525  Schema: schema11  QC_hit: No
+2023-04-29 23:53:19 type= counter= # Query_time: 6.520260  Lock_time: 0.000211  Rows_sent: 17  Rows_examined: 7135019
+2023-04-29 23:53:19 type= counter= # Rows_affected: 0  Bytes_sent: 1913
+2023-04-29 23:53:19 type= counter= SET timestamp=1682812399;
+2023-04-29 23:53:19 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:53:36 type= counter= # Time: 230429 23:53:36
+2023-04-29 23:53:36 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:53:36 type= counter= # Thread_id: 798577  Schema: schema3  QC_hit: No
+2023-04-29 23:53:36 type= counter= # Query_time: 2.063670  Lock_time: 0.000140  Rows_sent: 1  Rows_examined: 711188
+2023-04-29 23:53:36 type= counter= # Rows_affected: 0  Bytes_sent: 1748
+2023-04-29 23:53:36 type= counter= use schema3;
+2023-04-29 23:53:36 type= counter= SET timestamp=1682812416;
+2023-04-29 23:53:36 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:53:38 type= counter= # Time: 230429 23:53:38
+2023-04-29 23:53:38 type= counter= # User@Host: user16[user16] @  [0.0.0.0]
+2023-04-29 23:53:38 type= counter= # Thread_id: 798382  Schema: schema17  QC_hit: No
+2023-04-29 23:53:38 type= counter= # Query_time: 2.247384  Lock_time: 0.000182  Rows_sent: 1  Rows_examined: 715559
+2023-04-29 23:53:38 type= counter= # Rows_affected: 0  Bytes_sent: 232
+2023-04-29 23:53:38 type= counter= use schema17;
+2023-04-29 23:53:38 type= counter= SET timestamp=1682812418;
+2023-04-29 23:53:38 type= counter= select id,another_id from table312 where id = 'OCbEwSrFPLY5nvwx73ZG'
+2023-04-29 23:54:12 type= counter= # Time: 230429 23:54:12
+2023-04-29 23:54:12 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:54:12 type= counter= # Thread_id: 798649  Schema: schema3  QC_hit: No
+2023-04-29 23:54:12 type= counter= # Query_time: 2.112811  Lock_time: 0.000131  Rows_sent: 1  Rows_examined: 711192
+2023-04-29 23:54:12 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:54:12 type= counter= use schema3;
+2023-04-29 23:54:12 type= counter= SET timestamp=1682812452;
+2023-04-29 23:54:12 type= counter= select id,another_id from table312 where id = 'OCbEwSrFPLY5nvwx73ZG'
+2023-04-29 23:54:14 type= counter= # Time: 230429 23:54:14
+2023-04-29 23:54:14 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:54:14 type= counter= # Thread_id: 798656  Schema: schema3  QC_hit: No
+2023-04-29 23:54:14 type= counter= # Query_time: 2.046945  Lock_time: 0.000116  Rows_sent: 1  Rows_examined: 711193
+2023-04-29 23:54:14 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:54:14 type= counter= SET timestamp=1682812454;
+2023-04-29 23:54:14 type= counter= select id,another_id from table312 where id = 'OCbEwSrFPLY5nvwx73ZG'
+2023-04-29 23:54:16 type= counter= # Time: 230429 23:54:16
+2023-04-29 23:54:16 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:54:16 type= counter= # Thread_id: 798660  Schema: schema3  QC_hit: No
+2023-04-29 23:54:16 type= counter= # Query_time: 2.084471  Lock_time: 0.000109  Rows_sent: 1  Rows_examined: 711193
+2023-04-29 23:54:16 type= counter= # Rows_affected: 0  Bytes_sent: 5713
+2023-04-29 23:54:16 type= counter= SET timestamp=1682812456;
+2023-04-29 23:54:16 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:54:17 type= counter= # Time: 230429 23:54:17
+2023-04-29 23:54:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:54:17 type= counter= # Thread_id: 797989  Schema: schema11  QC_hit: No
+2023-04-29 23:54:17 type= counter= # Query_time: 4.666793  Lock_time: 0.000112  Rows_sent: 1  Rows_examined: 7134997
+2023-04-29 23:54:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:54:17 type= counter= use schema11;
+2023-04-29 23:54:17 type= counter= SET timestamp=1682812457;
+2023-04-29 23:54:17 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:54:05 type= counter= # Time: 230429 23:54:05
+2023-04-29 23:54:05 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:54:05 type= counter= # Thread_id: 797868  Schema: schema21  QC_hit: No
+2023-04-29 23:54:05 type= counter= # Query_time: 3.814145  Lock_time: 0.000082  Rows_sent: 0  Rows_examined: 6245679
+2023-04-29 23:54:05 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:54:05 type= counter= use schema21;
+2023-04-29 23:54:05 type= counter= SET timestamp=1682812445;
+2023-04-29 23:54:05 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:54:37 type= counter= # Time: 230429 23:54:37
+2023-04-29 23:54:37 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:54:37 type= counter= # Thread_id: 797989  Schema: schema11  QC_hit: No
+2023-04-29 23:54:37 type= counter= # Query_time: 18.659119  Lock_time: 0.000181  Rows_sent: 1  Rows_examined: 5508039
+2023-04-29 23:54:37 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:54:37 type= counter= SET timestamp=1682812477;
+2023-04-29 23:54:37 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:54:42 type= counter= # Time: 230429 23:54:42
+2023-04-29 23:54:42 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:54:42 type= counter= # Thread_id: 798720  Schema: schema3  QC_hit: No
+2023-04-29 23:54:42 type= counter= # Query_time: 2.106377  Lock_time: 0.000141  Rows_sent: 0  Rows_examined: 711197
+2023-04-29 23:54:42 type= counter= # Rows_affected: 0  Bytes_sent: 1381
+2023-04-29 23:54:42 type= counter= use schema3;
+2023-04-29 23:54:42 type= counter= SET timestamp=1682812482;
+2023-04-29 23:54:42 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:54:55 type= counter= # Time: 230429 23:54:55
+2023-04-29 23:54:55 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:54:55 type= counter= # Thread_id: 798749  Schema: schema3  QC_hit: No
+2023-04-29 23:54:55 type= counter= # Query_time: 2.082196  Lock_time: 0.000156  Rows_sent: 0  Rows_examined: 711199
+2023-04-29 23:54:55 type= counter= # Rows_affected: 0  Bytes_sent: 1381
+2023-04-29 23:54:55 type= counter= SET timestamp=1682812495;
+2023-04-29 23:54:55 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:54:56 type= counter= # Time: 230429 23:54:56
+2023-04-29 23:54:56 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:54:56 type= counter= # Thread_id: 798750  Schema: schema3  QC_hit: No
+2023-04-29 23:54:56 type= counter= # Query_time: 2.091009  Lock_time: 0.000131  Rows_sent: 1  Rows_examined: 711199
+2023-04-29 23:54:56 type= counter= # Rows_affected: 0  Bytes_sent: 1748
+2023-04-29 23:54:56 type= counter= SET timestamp=1682812496;
+2023-04-29 23:54:56 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:55:15 type= counter= # Time: 230429 23:55:15
+2023-04-29 23:55:15 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:55:15 type= counter= # Thread_id: 798784  Schema: schema3  QC_hit: No
+2023-04-29 23:55:15 type= counter= # Query_time: 2.025426  Lock_time: 0.000135  Rows_sent: 1  Rows_examined: 711200
+2023-04-29 23:55:15 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:55:15 type= counter= SET timestamp=1682812515;
+2023-04-29 23:55:15 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:55:06 type= counter= # Time: 230429 23:55:06
+2023-04-29 23:55:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:55:06 type= counter= # Thread_id: 797868  Schema: schema21  QC_hit: No
+2023-04-29 23:55:06 type= counter= # Query_time: 3.955035  Lock_time: 0.000156  Rows_sent: 0  Rows_examined: 6245683
+2023-04-29 23:55:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:55:06 type= counter= use schema21;
+2023-04-29 23:55:06 type= counter= SET timestamp=1682812506;
+2023-04-29 23:55:06 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:55:13 type= counter= # Time: 230429 23:55:13
+2023-04-29 23:55:13 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:55:13 type= counter= # Thread_id: 798779  Schema: schema3  QC_hit: No
+2023-04-29 23:55:13 type= counter= # Query_time: 2.002875  Lock_time: 0.000136  Rows_sent: 1  Rows_examined: 711200
+2023-04-29 23:55:13 type= counter= # Rows_affected: 0  Bytes_sent: 1748
+2023-04-29 23:55:13 type= counter= use schema3;
+2023-04-29 23:55:13 type= counter= SET timestamp=1682812513;
+2023-04-29 23:55:13 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:55:17 type= counter= # Time: 230429 23:55:17
+2023-04-29 23:55:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:55:17 type= counter= # Thread_id: 797989  Schema: schema11  QC_hit: No
+2023-04-29 23:55:17 type= counter= # Query_time: 4.879568  Lock_time: 0.000083  Rows_sent: 1  Rows_examined: 7135031
+2023-04-29 23:55:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:55:17 type= counter= use schema11;
+2023-04-29 23:55:17 type= counter= SET timestamp=1682812517;
+2023-04-29 23:55:17 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:55:24 type= counter= # Time: 230429 23:55:24
+2023-04-29 23:55:24 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:55:24 type= counter= # Thread_id: 798800  Schema: schema3  QC_hit: No
+2023-04-29 23:55:24 type= counter= # Query_time: 2.111603  Lock_time: 0.000153  Rows_sent: 1  Rows_examined: 711200
+2023-04-29 23:55:24 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:55:24 type= counter= use schema3;
+2023-04-29 23:55:24 type= counter= SET timestamp=1682812524;
+2023-04-29 23:55:24 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:55:24 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:55:24 type= counter= # Thread_id: 798802  Schema: schema3  QC_hit: No
+2023-04-29 23:55:24 type= counter= # Query_time: 2.020934  Lock_time: 0.000122  Rows_sent: 1  Rows_examined: 711200
+2023-04-29 23:55:24 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:55:24 type= counter= SET timestamp=1682812524;
+2023-04-29 23:55:24 type= counter= SELECT a,b,c FROM table21 where a = '4/NSncBH02xmGrhJoZMb'
+2023-04-29 23:56:06 type= counter= # Time: 230429 23:56:06
+2023-04-29 23:56:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:56:06 type= counter= # Thread_id: 797868  Schema: schema21  QC_hit: No
+2023-04-29 23:56:06 type= counter= # Query_time: 4.248313  Lock_time: 0.000098  Rows_sent: 0  Rows_examined: 6245686
+2023-04-29 23:56:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:56:06 type= counter= use schema21;
+2023-04-29 23:56:06 type= counter= SET timestamp=1682812566;
+2023-04-29 23:56:06 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:56:08 type= counter= # Time: 230429 23:56:08
+2023-04-29 23:56:08 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:56:08 type= counter= # Thread_id: 798883  Schema: schema3  QC_hit: No
+2023-04-29 23:56:08 type= counter= # Query_time: 2.190485  Lock_time: 0.000146  Rows_sent: 1  Rows_examined: 711202
+2023-04-29 23:56:08 type= counter= # Rows_affected: 0  Bytes_sent: 2174
+2023-04-29 23:56:08 type= counter= use schema3;
+2023-04-29 23:56:08 type= counter= SET timestamp=1682812568;
+2023-04-29 23:56:08 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:56:08 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:56:08 type= counter= # Thread_id: 798884  Schema: schema3  QC_hit: No
+2023-04-29 23:56:08 type= counter= # Query_time: 2.363184  Lock_time: 0.000146  Rows_sent: 1  Rows_examined: 711202
+2023-04-29 23:56:08 type= counter= # Rows_affected: 0  Bytes_sent: 2039
+2023-04-29 23:56:08 type= counter= SET timestamp=1682812568;
+2023-04-29 23:56:08 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:56:17 type= counter= # Time: 230429 23:56:17
+2023-04-29 23:56:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:56:17 type= counter= # Thread_id: 797989  Schema: schema11  QC_hit: No
+2023-04-29 23:56:17 type= counter= # Query_time: 4.782373  Lock_time: 0.000121  Rows_sent: 1  Rows_examined: 7135055
+2023-04-29 23:56:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:56:17 type= counter= use schema11;
+2023-04-29 23:56:17 type= counter= SET timestamp=1682812577;
+2023-04-29 23:56:17 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:56:18 type= counter= # Time: 230429 23:56:18
+2023-04-29 23:56:18 type= counter= # User@Host: user1[user1] @  [0.0.0.0]
+2023-04-29 23:56:18 type= counter= # Thread_id: 798337  Schema: schema1  QC_hit: No
+2023-04-29 23:56:18 type= counter= # Query_time: 2.308187  Lock_time: 0.000180  Rows_sent: 0  Rows_examined: 2652540
+2023-04-29 23:56:18 type= counter= # Rows_affected: 0  Bytes_sent: 566
+2023-04-29 23:56:18 type= counter= use schema1;
+2023-04-29 23:56:18 type= counter= SET timestamp=1682812578;
+2023-04-29 23:56:18 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:56:18 type= counter= # User@Host: user1[user1] @  [0.0.0.0]
+2023-04-29 23:56:18 type= counter= # Thread_id: 798900  Schema: schema1  QC_hit: No
+2023-04-29 23:56:18 type= counter= # Query_time: 2.403295  Lock_time: 0.000180  Rows_sent: 1  Rows_examined: 2652542
+2023-04-29 23:56:18 type= counter= # Rows_affected: 0  Bytes_sent: 632
+2023-04-29 23:56:18 type= counter= SET timestamp=1682812578;
+2023-04-29 23:56:18 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:56:23 type= counter= # Time: 230429 23:56:23
+2023-04-29 23:56:23 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:56:23 type= counter= # Thread_id: 798915  Schema: schema3  QC_hit: No
+2023-04-29 23:56:23 type= counter= # Query_time: 2.197694  Lock_time: 0.000123  Rows_sent: 1  Rows_examined: 711203
+2023-04-29 23:56:23 type= counter= # Rows_affected: 0  Bytes_sent: 2174
+2023-04-29 23:56:23 type= counter= use schema3;
+2023-04-29 23:56:23 type= counter= SET timestamp=1682812583;
+2023-04-29 23:56:23 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:56:53 type= counter= # Time: 230429 23:56:53
+2023-04-29 23:56:53 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:56:53 type= counter= # Thread_id: 798979  Schema: schema3  QC_hit: No
+2023-04-29 23:56:53 type= counter= # Query_time: 2.020949  Lock_time: 0.000184  Rows_sent: 1  Rows_examined: 711205
+2023-04-29 23:56:53 type= counter= # Rows_affected: 0  Bytes_sent: 1748
+2023-04-29 23:56:53 type= counter= use schema3;
+2023-04-29 23:56:53 type= counter= SET timestamp=1682812613;
+2023-04-29 23:56:53 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:57:04 type= counter= # Time: 230429 23:57:04
+2023-04-29 23:57:04 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:57:04 type= counter= # Thread_id: 799001  Schema: schema3  QC_hit: No
+2023-04-29 23:57:04 type= counter= # Query_time: 2.026053  Lock_time: 0.000119  Rows_sent: 1  Rows_examined: 711205
+2023-04-29 23:57:04 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:57:04 type= counter= use schema3;
+2023-04-29 23:57:04 type= counter= SET timestamp=1682812624;
+2023-04-29 23:57:04 type= counter= SELECT id,another_id FROM table312 where id = 'Bad7D/xOo/nr0heTzcXL'
+2023-04-29 23:57:06 type= counter= # Time: 230429 23:57:06
+2023-04-29 23:57:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:57:06 type= counter= # Thread_id: 797868  Schema: schema21  QC_hit: No
+2023-04-29 23:57:06 type= counter= # Query_time: 4.045116  Lock_time: 0.000134  Rows_sent: 0  Rows_examined: 6245688
+2023-04-29 23:57:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:57:06 type= counter= use schema21;
+2023-04-29 23:57:06 type= counter= SET timestamp=1682812626;
+2023-04-29 23:57:06 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:56:56 type= counter= # Time: 230429 23:56:56
+2023-04-29 23:56:56 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:56:56 type= counter= # Thread_id: 797868  Schema: schema21  QC_hit: No
+2023-04-29 23:56:56 type= counter= # Query_time: 11.566852  Lock_time: 0.000204  Rows_sent: 1  Rows_examined: 3329834
+2023-04-29 23:56:56 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:56:56 type= counter= use schema21;
+2023-04-29 23:56:56 type= counter= SET timestamp=1682812616;
+2023-04-29 23:56:56 type= counter= select id,another_id from table312 where id = 'OCbEwSrFPLY5nvwx73ZG'
+2023-04-29 23:56:48 type= counter= # Time: 230429 23:56:48
+2023-04-29 23:56:48 type= counter= # User@Host: user8[user8] @  [0.0.0.0]
+2023-04-29 23:56:48 type= counter= # Thread_id: 798329  Schema: schema7  QC_hit: No
+2023-04-29 23:56:48 type= counter= # Query_time: 10.121069  Lock_time: 0.000197  Rows_sent: 1  Rows_examined: 2852444
+2023-04-29 23:56:48 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:56:48 type= counter= use schema7;
+2023-04-29 23:56:48 type= counter= SET timestamp=1682812608;
+2023-04-29 23:56:48 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:57:07 type= counter= # Time: 230429 23:57:07
+2023-04-29 23:57:07 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:57:07 type= counter= # Thread_id: 798999  Schema: schema21  QC_hit: No
+2023-04-29 23:57:07 type= counter= # Query_time: 5.522687  Lock_time: 0.000175  Rows_sent: 1  Rows_examined: 6245690
+2023-04-29 23:57:07 type= counter= # Rows_affected: 0  Bytes_sent: 643
+2023-04-29 23:57:07 type= counter= SET timestamp=1682812627;
+2023-04-29 23:57:07 type= counter= select id,another_id from table312 where id = 'OCbEwSrFPLY5nvwx73ZG'
+2023-04-29 23:57:26 type= counter= # Time: 230429 23:57:26
+2023-04-29 23:57:26 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:57:26 type= counter= # Thread_id: 799045  Schema: schema3  QC_hit: No
+2023-04-29 23:57:26 type= counter= # Query_time: 2.063619  Lock_time: 0.000146  Rows_sent: 0  Rows_examined: 711207
+2023-04-29 23:57:26 type= counter= # Rows_affected: 0  Bytes_sent: 1381
+2023-04-29 23:57:26 type= counter= use schema3;
+2023-04-29 23:57:26 type= counter= SET timestamp=1682812646;
+2023-04-29 23:57:26 type= counter= select id,another_id from table312 where id = 'OCbEwSrFPLY5nvwx73ZG'
+2023-04-29 23:57:17 type= counter= # Time: 230429 23:57:17
+2023-04-29 23:57:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:57:17 type= counter= # Thread_id: 797989  Schema: schema11  QC_hit: No
+2023-04-29 23:57:17 type= counter= # Query_time: 4.450819  Lock_time: 0.000122  Rows_sent: 1  Rows_examined: 7135068
+2023-04-29 23:57:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:57:17 type= counter= use schema11;
+2023-04-29 23:57:17 type= counter= SET timestamp=1682812637;
+2023-04-29 23:57:17 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:57:37 type= counter= # Time: 230429 23:57:37
+2023-04-29 23:57:37 type= counter= # User@Host: user26[user26] @  [0.0.0.0]
+2023-04-29 23:57:37 type= counter= # Thread_id: 798473  Schema: schema1  QC_hit: No
+2023-04-29 23:57:37 type= counter= # Query_time: 4.431402  Lock_time: 0.000205  Rows_sent: 3  Rows_examined: 1200380
+2023-04-29 23:57:37 type= counter= # Rows_affected: 0  Bytes_sent: 359
+2023-04-29 23:57:37 type= counter= use schema1;
+2023-04-29 23:57:37 type= counter= SET timestamp=1682812657;
+2023-04-29 23:57:37 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:58:20 type= counter= # Time: 230429 23:58:20
+2023-04-29 23:58:20 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:58:20 type= counter= # Thread_id: 799122  Schema: schema11  QC_hit: No
+2023-04-29 23:58:20 type= counter= # Query_time: 6.285261  Lock_time: 0.000235  Rows_sent: 17  Rows_examined: 7135118
+2023-04-29 23:58:20 type= counter= # Rows_affected: 0  Bytes_sent: 1913
+2023-04-29 23:58:20 type= counter= SET timestamp=1682812700;
+2023-04-29 23:58:20 type= counter= select id,another_id from table312 where id = 'OCbEwSrFPLY5nvwx73ZG'
+2023-04-29 23:58:10 type= counter= # Time: 230429 23:58:10
+2023-04-29 23:58:10 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:58:10 type= counter= # Thread_id: 799110  Schema: schema3  QC_hit: No
+2023-04-29 23:58:10 type= counter= # Query_time: 2.110396  Lock_time: 0.000165  Rows_sent: 1  Rows_examined: 711209
+2023-04-29 23:58:10 type= counter= # Rows_affected: 0  Bytes_sent: 5344
+2023-04-29 23:58:10 type= counter= use schema3;
+2023-04-29 23:58:10 type= counter= SET timestamp=1682812690;
+2023-04-29 23:58:10 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:58:05 type= counter= # Time: 230429 23:58:05
+2023-04-29 23:58:05 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:58:05 type= counter= # Thread_id: 798999  Schema: schema21  QC_hit: No
+2023-04-29 23:58:05 type= counter= # Query_time: 3.686913  Lock_time: 0.000096  Rows_sent: 0  Rows_examined: 6245693
+2023-04-29 23:58:05 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:58:05 type= counter= use schema21;
+2023-04-29 23:58:05 type= counter= SET timestamp=1682812685;
+2023-04-29 23:58:05 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:58:18 type= counter= # Time: 230429 23:58:18
+2023-04-29 23:58:18 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:58:18 type= counter= # Thread_id: 797989  Schema: schema11  QC_hit: No
+2023-04-29 23:58:18 type= counter= # Query_time: 5.176424  Lock_time: 0.000157  Rows_sent: 1  Rows_examined: 7135085
+2023-04-29 23:58:18 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:58:18 type= counter= use schema11;
+2023-04-29 23:58:18 type= counter= SET timestamp=1682812698;
+2023-04-29 23:58:18 type= counter= UPDATE table312 SET id='YZgIyvAA/X27NYSRHhP+' where table312.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:58:44 type= counter= # Time: 230429 23:58:44
+2023-04-29 23:58:44 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:58:44 type= counter= # Thread_id: 799168  Schema: schema3  QC_hit: No
+2023-04-29 23:58:44 type= counter= # Query_time: 2.014775  Lock_time: 0.000094  Rows_sent: 1  Rows_examined: 711212
+2023-04-29 23:58:44 type= counter= # Rows_affected: 0  Bytes_sent: 2174
+2023-04-29 23:58:44 type= counter= use schema3;
+2023-04-29 23:58:44 type= counter= SET timestamp=1682812724;
+2023-04-29 23:58:44 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:58:38 type= counter= # Time: 230429 23:58:38
+2023-04-29 23:58:38 type= counter= # User@Host: user16[user16] @  [0.0.0.0]
+2023-04-29 23:58:38 type= counter= # Thread_id: 798382  Schema: schema17  QC_hit: No
+2023-04-29 23:58:38 type= counter= # Query_time: 2.369662  Lock_time: 0.000156  Rows_sent: 1  Rows_examined: 715559
+2023-04-29 23:58:38 type= counter= # Rows_affected: 0  Bytes_sent: 232
+2023-04-29 23:58:38 type= counter= use schema17;
+2023-04-29 23:58:38 type= counter= SET timestamp=1682812718;
+2023-04-29 23:58:38 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:59:06 type= counter= # Time: 230429 23:59:06
+2023-04-29 23:59:06 type= counter= # User@Host: user890[user890] @  [0.0.0.0]
+2023-04-29 23:59:06 type= counter= # Thread_id: 798999  Schema: schema21  QC_hit: No
+2023-04-29 23:59:06 type= counter= # Query_time: 4.042804  Lock_time: 0.000144  Rows_sent: 0  Rows_examined: 6245694
+2023-04-29 23:59:06 type= counter= # Rows_affected: 0  Bytes_sent: 212
+2023-04-29 23:59:06 type= counter= use schema21;
+2023-04-29 23:59:06 type= counter= SET timestamp=1682812746;
+2023-04-29 23:59:06 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:59:37 type= counter= # Time: 230429 23:59:37
+2023-04-29 23:59:37 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:59:37 type= counter= # Thread_id: 799254  Schema: schema3  QC_hit: No
+2023-04-29 23:59:37 type= counter= # Query_time: 2.188852  Lock_time: 0.000116  Rows_sent: 1  Rows_examined: 711215
+2023-04-29 23:59:37 type= counter= # Rows_affected: 0  Bytes_sent: 1944
+2023-04-29 23:59:37 type= counter= use schema3;
+2023-04-29 23:59:37 type= counter= SET timestamp=1682812777;
+2023-04-29 23:59:37 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:59:37 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:59:37 type= counter= # Thread_id: 799122  Schema: schema11  QC_hit: No
+2023-04-29 23:59:37 type= counter= # Query_time: 18.469787  Lock_time: 0.000165  Rows_sent: 1  Rows_examined: 5508039
+2023-04-29 23:59:37 type= counter= # Rows_affected: 0  Bytes_sent: 233
+2023-04-29 23:59:37 type= counter= use schema11;
+2023-04-29 23:59:37 type= counter= SET timestamp=1682812777;
+2023-04-29 23:59:37 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:59:17 type= counter= # Time: 230429 23:59:17
+2023-04-29 23:59:17 type= counter= # User@Host: user5[user5] @  [0.0.0.0]
+2023-04-29 23:59:17 type= counter= # Thread_id: 799122  Schema: schema11  QC_hit: No
+2023-04-29 23:59:17 type= counter= # Query_time: 4.562947  Lock_time: 0.000157  Rows_sent: 1  Rows_examined: 7135099
+2023-04-29 23:59:17 type= counter= # Rows_affected: 0  Bytes_sent: 256
+2023-04-29 23:59:17 type= counter= use schema11;
+2023-04-29 23:59:17 type= counter= SET timestamp=1682812757;
+2023-04-29 23:59:17 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:59:45 type= counter= # Time: 230429 23:59:45
+2023-04-29 23:59:45 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:59:45 type= counter= # Thread_id: 799269  Schema: schema3  QC_hit: No
+2023-04-29 23:59:45 type= counter= # Query_time: 2.010723  Lock_time: 0.000112  Rows_sent: 1  Rows_examined: 711217
+2023-04-29 23:59:45 type= counter= # Rows_affected: 0  Bytes_sent: 1802
+2023-04-29 23:59:45 type= counter= use schema3;
+2023-04-29 23:59:45 type= counter= SET timestamp=1682812785;
+2023-04-29 23:59:45 type= counter= select a,b,c from table21 where a = 'Bf/Yyn9Q0QKMZRxrt31p'
+2023-04-29 23:59:57 type= counter= # Time: 230429 23:59:57
+2023-04-29 23:59:57 type= counter= # User@Host: user3[user3] @  [0.0.0.0]
+2023-04-29 23:59:57 type= counter= # Thread_id: 799288  Schema: schema3  QC_hit: No
+2023-04-29 23:59:57 type= counter= # Query_time: 2.021381  Lock_time: 0.000126  Rows_sent: 0  Rows_examined: 711217
+2023-04-29 23:59:57 type= counter= # Rows_affected: 0  Bytes_sent: 1381
+2023-04-29 23:59:57 type= counter= SET timestamp=1682812797;
+2023-04-29 23:59:57 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'

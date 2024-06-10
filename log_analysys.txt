@@ -1,0 +1,50 @@
+1.      Get last 15 update queries
+
+grep -i update example.log | tail -n 15
+ 
+2023-04-29 23:56:18 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:56:18 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:56:48 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:57:17 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:57:37 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:58:10 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:58:05 type= counter= UPDATE table3 SET d = 1 where a = '7m7GdA76QZ/9++6K8ySi'
+2023-04-29 23:58:18 type= counter= UPDATE table312 SET id='YZgIyvAA/X27NYSRHhP+' where table312.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:58:44 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:58:38 type= counter= update table5 set d = 0 where a = 'JKFusehOBEDm0XqpokrJ'
+2023-04-29 23:59:06 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:59:37 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:59:37 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+2023-04-29 23:59:17 type= counter= UPDATE table1 SET data='LfWb/Z9KMNPTZ/1qlVFR' where table1.id = 'xFjIrx5cjUKpWwZBiMVs'
+2023-04-29 23:59:57 type= counter= UPDATE table2 SET id='YZgIyvAA/X27NYSRHhP+' where table2.id = 'sRCXdLhcax7vsdNRyd1c'
+ 
+2.      Get number of select queries in the entire file
+ 
+ grep -i select  example.log | wc -l 
+ 
+      66
+ 
+3.      Get sum of sent rows, from queries that occurred between 23:54:00 and 23:54:59
+
+grep -A 3 "23:54:.. " example.log | grep -i "Rows_sent:" | awk '{sum += $11} END {print sum}'
+
+6
+ 
+4.      Get list of all users generating queries
+ 
+grep -i user@host: example.log | awk -F'[][]' '{print $2}' | sort | uniq
+
+user1
+user11
+user16
+user26
+user3
+user5
+user8
+user890
+
+5.      Find which table occurs the most times – each query in this file refers to no more than one table
+
+grep -o -i -E "(from|update|into|join) [a-zA-Z0-9_]+" example.log | awk '{print $2}' | sort | uniq -c | sort -nr | head -n 1
+
+   35 table21
