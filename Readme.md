@@ -1,4 +1,4 @@
-# Metropolitan Public Transport Data Analysis
+# Metropolitan Public Transport Data Model
 
 ## Overview
 This project provides a solution for storing and analyzing data from a metropolitan public transport system using Apache Cassandra. 
