@@ -13,6 +13,7 @@ This project provides a solution for storing and analyzing data from a metropoli
 - `example.log`: MySQL logs (not used in this guide)
 - `log_analysis.txt`: Log analysis file (not used in this guide)
 
+<img width="1440" alt="Screenshot 2024-06-10 at 17 15 34" src="https://github.com/MatforZo/Cassandra/assets/121509790/784046fe-4e6f-419a-a969-d2116d7b2a64">
 ## Step 1: Build a docker image:
 
 sudo docker build -t my_cassandra_image .
@@ -25,15 +26,13 @@ docker run --name my_cassandra_container -d -p 9042:9042 my_cassandra_image
 
 docker exec -it my_cassandra_container cqlsh
 
-## Use below query to retrieve data that answers following question:
-## What was the total number of passengers for a given route segment on a specified day?
+## Use below query to retrieve data that answers following question: What was the total number of passengers for a given route segment on a specified day?
 
 SELECT SUM(passengers_count) AS total_passengers
 FROM route_segment
 WHERE segment_id = 'seg1' AND date = '2024-06-10';
 
-## Use below query to retrieve data that answers following question:
-## What was the travel time for a given service number of a given line on a specified day (from the first to the last stop)?
+## Use below query to retrieve data that answers following question: What was the travel time for a given service number of a given line on a specified day (from the first to the last stop)?
 
 SELECT travel_time
 FROM service_travel_time
