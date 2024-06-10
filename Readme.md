@@ -11,7 +11,7 @@ This project provides a solution for storing and analyzing data from a metropoli
 - `Dockerfile`: Creates a Docker image with Cassandra and sets up the data model
 - `schema.cql`: CQL script to create the desired schema
 - `example.log`: MySQL logs (not used in this guide)
-- `log_analysis.txt`: Log analysis file (not used in this guide)
+- `log_analysis.txt`: Log analysis of example.log (not used in this guide)
 
 <img width="1440" alt="Screenshot 2024-06-10 at 17 15 34" src="https://github.com/MatforZo/Cassandra/assets/121509790/784046fe-4e6f-419a-a969-d2116d7b2a64">
 
