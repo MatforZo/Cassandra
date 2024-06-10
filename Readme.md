@@ -24,9 +24,13 @@ sudo docker build -t my_cassandra_image .
 
 docker run --name my_cassandra_container -d -p 9042:9042 my_cassandra_image
 
-## Step 3: Access CassandraDB
+## Step 3: Access CassandraDB and select created Keyspace
 
-docker exec -it my_cassandra_container cqlsh
+docker exec -it my_cassandra_container cqlsh 
+
+## Step 4: Use created Keyspace
+
+USE transport;
 
 ## Use below query to retrieve data that answers following question: What was the total number of passengers for a given route segment on a specified day?
 
