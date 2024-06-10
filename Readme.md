@@ -1,7 +1,8 @@
 # Metropolitan Public Transport Data Analysis
 
 ## Overview
-This project provides a solution for storing and analyzing data from a metropolitan public transport system using Apache Cassandra. The data includes route segments, number of passengers, travel time, line numbers, and service numbers. The solution is designed to efficiently answer specific queries regarding the total number of passengers on a route segment for a specified day and the travel time for a given service number of a given line on a specified day.
+This project provides a solution for storing and analyzing data from a metropolitan public transport system using Apache Cassandra. 
+The solution is designed to efficiently answer specific queries regarding the total number of passengers on a route segment for a specified day and the travel time for a given service number of a given line on a specified day.
 
 ## Prerequisites
 - Docker installed on your machine
